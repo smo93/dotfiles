@@ -2,6 +2,11 @@
 
 export TERM="xterm-256color"
 
+SSH_AUTH_SOCK=`ss -xl | grep -o '/run/user/1000/keyring-.*/ssh'`
+[ -z "$SSH_AUTH_SOCK" ] || export SSH_AUTH_SOCK
+
+alias ls='ls --color=auto'
+
 # advanced tab completion
 autoload -U compinit
 compinit
