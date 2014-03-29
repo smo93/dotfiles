@@ -84,4 +84,6 @@ let g:airline#extensions#tabline#enabled = 1
 set ttimeoutlen=50
 let g:airline_theme='powerlineish'
 set laststatus=2
+let g:airline_left_sep='⮀'
+let g:airline_right_sep='⮂'
 
