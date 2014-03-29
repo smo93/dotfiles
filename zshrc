@@ -1,10 +1,13 @@
 #!/bin/zsh
 
+# set 256 colors in terminal
 export TERM="xterm-256color"
 
+# ssh and gnome-keyring
 SSH_AUTH_SOCK=`ss -xl | grep -o '/run/user/1000/keyring-.*/ssh'`
 [ -z "$SSH_AUTH_SOCK" ] || export SSH_AUTH_SOCK
 
+# colorful output for 'ls'
 alias ls='ls --color=auto'
 
 # advanced tab completion
@@ -13,9 +16,6 @@ compinit
 
 # menu style auto-completion
 zstyle ':completion:*' menu select
-
-# enable auto-correction on the commands typed
-setopt correctall
 
 # prompt
 # color="[38;5;{$col}m"
