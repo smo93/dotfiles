@@ -2,6 +2,7 @@ set nocompatible              " be iMproved, required
 filetype indent plugin on
 syntax enable
 set number
+set cursorline
 
 call pathogen#helptags()
 call pathogen#incubate()
