@@ -24,7 +24,9 @@ reset="%k"
 color1="236"
 color2="237"
 color3="238"
-PS1="%K{$color1}%@ %K{$color2}%F{$color1}⮀%f %n@%m %K{$color3}%F{$color2}⮀%f %~ ${reset}%F{$color3}⮀%f "
+# PS1="%K{$color1}%@ %K{$color2}%F{$color1}⮀%f %n@%m %K{$color3}%F{$color2}⮀%f %~ ${reset}%F{$color3}⮀%f "
+PS1="┌─[%F{11}%T%f]─[%F{12}%n@%m%f]─[%F{10}%~%f]
+└──╼ "
 
 # set command history size and save file
 HISTSIZE=2000
