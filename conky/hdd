@@ -47,7 +47,7 @@ border_margin 5
 border_width 1
 
 # Default colors and also border colors
-default_color dddddd
+default_color ffffff
 #default_color 404040
 #default_shade_color white
 #default_outline_color black
@@ -85,8 +85,8 @@ override_utf8_locale yes
 use_spacer none
 
 # Colors
-color1 dddddd
-color2 dddddd
+color1 ffffff
+color2 ff0000
 
 TEXT
 ${color1}HDD ${color}${hr 1}
