@@ -93,4 +93,4 @@ ${color1}DATE ${color}${hr 1}
 
 ${alignc 18}${font Droid Sans Mono:pixelsize=23}${color2}${time %H:%M}${color}${font}
 ${alignc 5}${font Droid Sans Mono:pixelsize=11}${time %a %d %b %Y}${font}
-${alignc 5}${font Droid Sans Mono:pixelsize=11}${texeci 60 py /home/georgi/.dotfiles/conky/mail.pyc}${font}
+${alignc 5}${font Droid Sans Mono:pixelsize=11}${texeci 60 py /home/georgi/.dotfiles/conky/mail.py}${font}
