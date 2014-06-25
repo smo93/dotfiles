@@ -5,8 +5,6 @@ set number
 set cursorline
 set backspace=indent,eol,start
 
-" call pathogen#helptags()
-" call pathogen#incubate()
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
