@@ -1,4 +1,4 @@
-#!/bin/python3.3
+#!/bin/python3.4
 
 from os import chdir
 
